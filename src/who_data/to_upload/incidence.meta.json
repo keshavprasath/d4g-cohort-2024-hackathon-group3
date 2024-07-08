@@ -1,0 +1,86 @@
+{
+  "short_name": "estimated_number_of_malaria_cases",
+  "title": "Estimated number of malaria cases",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "who",
+    "short_name": "gho",
+    "title": "Global Health Observatory - World Health Organization",
+    "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+    "is_public": true,
+    "version": "2024-01-03",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "source_checksum": "69e37521d07030daf9bc2089403f9f72"
+  },
+  "primary_key": [
+    "year",
+    "country"
+  ],
+  "fields": {
+    "year": {
+      "title": "Estimated number of malaria cases - Year",
+      "description_from_producer": "{\"Associated Indicators\": \"[Estimated number of malaria cases](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases)\", \"Short name\": \"Estimated malaria cases\", \"Data type\": \"Count\", \"Topic\": \"Mortality and burden of disease\", \"Definition\": \"A case of malaria is defined as the occurrence of malaria infection in a person in whom the presence of malaria parasites in the blood has been confirmed by a diagnostic test. The population considered is the population at risk of the disease.\", \"Disaggregation\": \"By country and WHO region\", \"Method of measurement\": \"Complete data on malaria cases reported through surveillance systems are the best source of data but are rarely available for large populations at high quality and accuracy. Reported data on malaria cases generally need to be adjusted for extent of health service use (treatment seeking), underreporting and lack of case confirmation (the likelihood that cases are parasite positive). WHO compiles data on reported confirmed cases of malaria and suspected cases tested with microscopy or RDT, submitted by national malaria control programmes. Underreporting is reported or estimated by countries. The extent of health service use (treatment seeking) data were obtained from nationally representative household surveys on health service use.\", \"M&E Framework\": \"Impact\", \"Method of estimation\": \"Confirmed malaria cases for countries and areas outside Africa, and for low-transmission countries and areas in Africa are adjusted for extent of health service use (treatment seeking), underreporting and lack of case confirmation (the likelihood that cases are parasite positive). In high transmission areas in which the quality of surveillance data does not permit a robust estimate from the number of reported cases, but good data on parasite prevalence is available, the number of cases can be estimated from parasite prevalence . The range in brackets shown with the point estimate in the data tables represent the 95% uncertainty interval.\", \"Preferred data sources\": \"Surveillance systems; All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999)\", \"Unit of Measure\": \"Cases\", \"Expected frequency of data dissemination\": \"Annual\", \"Expected frequency of data collection\": \"Continuous\", \"Comments\": \"Method described in the World Malaria Report 2022, pages 208-212.\", \"Contact person email\": \"[[email protected]](/cdn-cgi/l/email-protection#6205030e031603110022150a0d4c0b0c165d311700080701165f250e0d00030e422a07030e160a422d001107101403160d101b42270c13170b101b)\", \"Name\": \"Bea Galatas\", \"Links\": \"[Malaria surveillance, monitoring and evaluation: a reference manual || https://apps.who.int/iris/bitstream/handle/10665/272284/9789241565578-eng.pdf](https://apps.who.int/iris/bitstream/handle/10665/272284/9789241565578-eng.pdf)\\n\\n[World malaria report 2022 || https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022](https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022)\"}",
+      "origins": [
+        {
+          "producer": "World Health Organization",
+          "title": "Global Health Observatory",
+          "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+          "citation_full": "World Health Organization. 2024. Global Health Observatory data repository. http://www.who.int/gho/en/. Accessed on 2024-01-03",
+          "attribution": "World Health Organization - Global Health Observatory (2024)",
+          "attribution_short": "WHO",
+          "url_main": "https://www.who.int/data/gho",
+          "date_accessed": "2024-01-03",
+          "date_published": "2024-01-03",
+          "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "url": "https://www.who.int/about/policies/publishing/copyright"
+          }
+        }
+      ]
+    },
+    "country": {
+      "description_from_producer": "{\"Associated Indicators\": \"[Estimated number of malaria cases](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases)\", \"Short name\": \"Estimated malaria cases\", \"Data type\": \"Count\", \"Topic\": \"Mortality and burden of disease\", \"Definition\": \"A case of malaria is defined as the occurrence of malaria infection in a person in whom the presence of malaria parasites in the blood has been confirmed by a diagnostic test. The population considered is the population at risk of the disease.\", \"Disaggregation\": \"By country and WHO region\", \"Method of measurement\": \"Complete data on malaria cases reported through surveillance systems are the best source of data but are rarely available for large populations at high quality and accuracy. Reported data on malaria cases generally need to be adjusted for extent of health service use (treatment seeking), underreporting and lack of case confirmation (the likelihood that cases are parasite positive). WHO compiles data on reported confirmed cases of malaria and suspected cases tested with microscopy or RDT, submitted by national malaria control programmes. Underreporting is reported or estimated by countries. The extent of health service use (treatment seeking) data were obtained from nationally representative household surveys on health service use.\", \"M&E Framework\": \"Impact\", \"Method of estimation\": \"Confirmed malaria cases for countries and areas outside Africa, and for low-transmission countries and areas in Africa are adjusted for extent of health service use (treatment seeking), underreporting and lack of case confirmation (the likelihood that cases are parasite positive). In high transmission areas in which the quality of surveillance data does not permit a robust estimate from the number of reported cases, but good data on parasite prevalence is available, the number of cases can be estimated from parasite prevalence . The range in brackets shown with the point estimate in the data tables represent the 95% uncertainty interval.\", \"Preferred data sources\": \"Surveillance systems; All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999)\", \"Unit of Measure\": \"Cases\", \"Expected frequency of data dissemination\": \"Annual\", \"Expected frequency of data collection\": \"Continuous\", \"Comments\": \"Method described in the World Malaria Report 2022, pages 208-212.\", \"Contact person email\": \"[[email protected]](/cdn-cgi/l/email-protection#6205030e031603110022150a0d4c0b0c165d311700080701165f250e0d00030e422a07030e160a422d001107101403160d101b42270c13170b101b)\", \"Name\": \"Bea Galatas\", \"Links\": \"[Malaria surveillance, monitoring and evaluation: a reference manual || https://apps.who.int/iris/bitstream/handle/10665/272284/9789241565578-eng.pdf](https://apps.who.int/iris/bitstream/handle/10665/272284/9789241565578-eng.pdf)\\n\\n[World malaria report 2022 || https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022](https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022)\"}",
+      "origins": [
+        {
+          "producer": "World Health Organization",
+          "title": "Global Health Observatory",
+          "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+          "citation_full": "World Health Organization. 2024. Global Health Observatory data repository. http://www.who.int/gho/en/. Accessed on 2024-01-03",
+          "attribution": "World Health Organization - Global Health Observatory (2024)",
+          "attribution_short": "WHO",
+          "url_main": "https://www.who.int/data/gho",
+          "date_accessed": "2024-01-03",
+          "date_published": "2024-01-03",
+          "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "url": "https://www.who.int/about/policies/publishing/copyright"
+          }
+        }
+      ]
+    },
+    "estimated_number_of_malaria_cases": {
+      "title": "Estimated number of malaria cases",
+      "description_short": "A case of malaria is defined as the occurrence of malaria infection in a person in whom the presence of malaria parasites in the blood has been confirmed by a diagnostic test. The population considered is the population at risk of the disease.",
+      "description_from_producer": "##### Definition\nA case of malaria is defined as the occurrence of malaria infection in a person in whom the presence of malaria parasites in the blood has been confirmed by a diagnostic test. The population considered is the population at risk of the disease.\n\n##### Method of measurement\nComplete data on malaria cases reported through surveillance systems are the best source of data but are rarely available for large populations at high quality and accuracy. Reported data on malaria cases generally need to be adjusted for extent of health service use (treatment seeking), underreporting and lack of case confirmation (the likelihood that cases are parasite positive). WHO compiles data on reported confirmed cases of malaria and suspected cases tested with microscopy or RDT, submitted by national malaria control programmes. Underreporting is reported or estimated by countries. The extent of health service use (treatment seeking) data were obtained from nationally representative household surveys on health service use.\n\n##### Method of estimation\nConfirmed malaria cases for countries and areas outside Africa, and for low-transmission countries and areas in Africa are adjusted for extent of health service use (treatment seeking), underreporting and lack of case confirmation (the likelihood that cases are parasite positive). In high transmission areas in which the quality of surveillance data does not permit a robust estimate from the number of reported cases, but good data on parasite prevalence is available, the number of cases can be estimated from parasite prevalence . The range in brackets shown with the point estimate in the data tables represent the 95% uncertainty interval.",
+      "origins": [
+        {
+          "producer": "World Health Organization",
+          "title": "Global Health Observatory",
+          "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+          "citation_full": "World Health Organization. 2024. Global Health Observatory data repository. http://www.who.int/gho/en/. Accessed on 2024-01-03",
+          "attribution": "World Health Organization - Global Health Observatory (2024)",
+          "attribution_short": "WHO",
+          "url_main": "https://www.who.int/data/gho",
+          "date_accessed": "2024-01-03",
+          "date_published": "2024-01-03",
+          "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "url": "https://www.who.int/about/policies/publishing/copyright"
+          }
+        }
+      ],
+      "unit": "Cases"
+    }
+  }
+}

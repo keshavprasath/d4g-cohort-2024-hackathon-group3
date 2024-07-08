@@ -1,0 +1,86 @@
+{
+  "short_name": "estimated_number_of_malaria_deaths",
+  "title": "Estimated number of malaria deaths",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "who",
+    "short_name": "gho",
+    "title": "Global Health Observatory - World Health Organization",
+    "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+    "is_public": true,
+    "version": "2024-01-03",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "source_checksum": "69e37521d07030daf9bc2089403f9f72"
+  },
+  "primary_key": [
+    "year",
+    "country"
+  ],
+  "fields": {
+    "year": {
+      "title": "Estimated number of malaria deaths - Year",
+      "description_from_producer": "{\"Associated Indicators\": \"[Estimated number of malaria deaths](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-deaths)\", \"Short name\": \"Estimated malaria deaths\", \"Data type\": \"Count\", \"Topic\": \"Mortality and burden of disease\", \"Definition\": \"Estimated number of deaths due to malaria\", \"Disaggregation\": \"By country and WHO region\", \"Method of measurement\": \"The number of deaths due to indigenously acquired malaria was reported by national malaria control programs to WHO. The number of malaria estimated cases per Plasmodium species was used to estimate deaths after applying a species-specific case fatality rates.\", \"M&E Framework\": \"Impact\", \"Method of estimation\": \"The number of malaria deaths was estimated by one of two methods: i) For countries outside Africa and for low-transmission countries in Africa: the number of deaths was estimated by multiplying the estimated number of P. falciparum malaria cases by a fixed case fatality rate for each country, as described in the World malaria report 2008. This method was used for all countries outside Africa and for low-transmission countries in Africa, where estimates of case incidence were derived from routine reporting systems. A case fatality rate of between 0.01% and 0.40% was applied to the estimated number of P. falciparum cases, and a case fatality rate of between 0.01% and 0.06% was applied to the estimated number of P. vivax cases. For countries in the pre-elimination and elimination phases, and those with vital registration systems that reported more than 50% of all deaths (determined by comparing the number of reported deaths with those expected given a country\\u2019s population size and crude deaths rate), the number of malaria deaths was derived from the number of reported deaths, adjusting for completeness of reporting. ii) For countries in Africa with a high proportion of deaths due to malaria: child malaria deaths were estimated using a verbal autopsy multicause model developed by the Maternal and Child Health Epidemiology Estimation Group which estimates causes of death for children aged 1\\u201359 months. Mortality estimates were derived for eight causes of post-neonatal death (pneumonia, diarrhoea, malaria, meningitis, injuries, pertussis, tuberculosis and other disorders), causes arising in the neonatal period (prematurity, birth asphyxia and trauma, sepsis, and other conditions of the neonate) and other causes (e.g. malnutrition). Deaths due to measles, unknown causes and HIV/AIDS were estimated separately. The resulting cause-specific estimates were adjusted, country by country, to fit the estimated 1\\u201359 month mortality envelopes (excluding HIV and measles deaths) for corresponding years. Estimated malaria parasite prevalence, was used as a covariate within the model. Deaths in those aged over 5 years were inferred from a relationship between levels of malaria mortality in different age groups and the intensity of malaria transmission; thus, the estimated malaria mortality rate in children aged under 5 years was used to infer malaria-specific mortality in older age groups.\", \"Preferred data sources\": \"Surveillance systems; All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999)\", \"Unit of Measure\": \"Deaths\", \"Expected frequency of data dissemination\": \"Annual\", \"Expected frequency of data collection\": \"Continuous\", \"Comments\": \"Method described in the World Malaria Report 2022, pages 208-212.\", \"Contact person email\": \"[[email protected]](/cdn-cgi/l/email-protection#c3a4a2afa2b7a2b0a183b4abacedaaadb7fc90b6a1a9a6a0b7fe84afaca1a2afe38ba6a2afb7abe38ca1b0a6b1b5a2b7acb1bae386adb2b6aab1ba)\", \"Name\": \"Bea Galatas\", \"Links\": \"[World malaria report 2022 || https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022](https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022)\"}",
+      "origins": [
+        {
+          "producer": "World Health Organization",
+          "title": "Global Health Observatory",
+          "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+          "citation_full": "World Health Organization. 2024. Global Health Observatory data repository. http://www.who.int/gho/en/. Accessed on 2024-01-03",
+          "attribution": "World Health Organization - Global Health Observatory (2024)",
+          "attribution_short": "WHO",
+          "url_main": "https://www.who.int/data/gho",
+          "date_accessed": "2024-01-03",
+          "date_published": "2024-01-03",
+          "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "url": "https://www.who.int/about/policies/publishing/copyright"
+          }
+        }
+      ]
+    },
+    "country": {
+      "description_from_producer": "{\"Associated Indicators\": \"[Estimated number of malaria deaths](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-deaths)\", \"Short name\": \"Estimated malaria deaths\", \"Data type\": \"Count\", \"Topic\": \"Mortality and burden of disease\", \"Definition\": \"Estimated number of deaths due to malaria\", \"Disaggregation\": \"By country and WHO region\", \"Method of measurement\": \"The number of deaths due to indigenously acquired malaria was reported by national malaria control programs to WHO. The number of malaria estimated cases per Plasmodium species was used to estimate deaths after applying a species-specific case fatality rates.\", \"M&E Framework\": \"Impact\", \"Method of estimation\": \"The number of malaria deaths was estimated by one of two methods: i) For countries outside Africa and for low-transmission countries in Africa: the number of deaths was estimated by multiplying the estimated number of P. falciparum malaria cases by a fixed case fatality rate for each country, as described in the World malaria report 2008. This method was used for all countries outside Africa and for low-transmission countries in Africa, where estimates of case incidence were derived from routine reporting systems. A case fatality rate of between 0.01% and 0.40% was applied to the estimated number of P. falciparum cases, and a case fatality rate of between 0.01% and 0.06% was applied to the estimated number of P. vivax cases. For countries in the pre-elimination and elimination phases, and those with vital registration systems that reported more than 50% of all deaths (determined by comparing the number of reported deaths with those expected given a country\\u2019s population size and crude deaths rate), the number of malaria deaths was derived from the number of reported deaths, adjusting for completeness of reporting. ii) For countries in Africa with a high proportion of deaths due to malaria: child malaria deaths were estimated using a verbal autopsy multicause model developed by the Maternal and Child Health Epidemiology Estimation Group which estimates causes of death for children aged 1\\u201359 months. Mortality estimates were derived for eight causes of post-neonatal death (pneumonia, diarrhoea, malaria, meningitis, injuries, pertussis, tuberculosis and other disorders), causes arising in the neonatal period (prematurity, birth asphyxia and trauma, sepsis, and other conditions of the neonate) and other causes (e.g. malnutrition). Deaths due to measles, unknown causes and HIV/AIDS were estimated separately. The resulting cause-specific estimates were adjusted, country by country, to fit the estimated 1\\u201359 month mortality envelopes (excluding HIV and measles deaths) for corresponding years. Estimated malaria parasite prevalence, was used as a covariate within the model. Deaths in those aged over 5 years were inferred from a relationship between levels of malaria mortality in different age groups and the intensity of malaria transmission; thus, the estimated malaria mortality rate in children aged under 5 years was used to infer malaria-specific mortality in older age groups.\", \"Preferred data sources\": \"Surveillance systems; All references to Kosovo should be understood to be in the context of the United Nations Security Council resolution 1244 (1999)\", \"Unit of Measure\": \"Deaths\", \"Expected frequency of data dissemination\": \"Annual\", \"Expected frequency of data collection\": \"Continuous\", \"Comments\": \"Method described in the World Malaria Report 2022, pages 208-212.\", \"Contact person email\": \"[[email protected]](/cdn-cgi/l/email-protection#c3a4a2afa2b7a2b0a183b4abacedaaadb7fc90b6a1a9a6a0b7fe84afaca1a2afe38ba6a2afb7abe38ca1b0a6b1b5a2b7acb1bae386adb2b6aab1ba)\", \"Name\": \"Bea Galatas\", \"Links\": \"[World malaria report 2022 || https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022](https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2022)\"}",
+      "origins": [
+        {
+          "producer": "World Health Organization",
+          "title": "Global Health Observatory",
+          "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+          "citation_full": "World Health Organization. 2024. Global Health Observatory data repository. http://www.who.int/gho/en/. Accessed on 2024-01-03",
+          "attribution": "World Health Organization - Global Health Observatory (2024)",
+          "attribution_short": "WHO",
+          "url_main": "https://www.who.int/data/gho",
+          "date_accessed": "2024-01-03",
+          "date_published": "2024-01-03",
+          "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "url": "https://www.who.int/about/policies/publishing/copyright"
+          }
+        }
+      ]
+    },
+    "estimated_number_of_malaria_deaths": {
+      "title": "Estimated number of malaria deaths",
+      "description_short": "Estimated number of deaths due to malaria",
+      "description_from_producer": "##### Definition\nEstimated number of deaths due to malaria\n\n##### Method of measurement\nThe number of deaths due to indigenously acquired malaria was reported by national malaria control programs to WHO. The number of malaria estimated cases per Plasmodium species was used to estimate deaths after applying a species-specific case fatality rates.\n\n##### Method of estimation\nThe number of malaria deaths was estimated by one of two methods: i) For countries outside Africa and for low-transmission countries in Africa: the number of deaths was estimated by multiplying the estimated number of P. falciparum malaria cases by a fixed case fatality rate for each country, as described in the World malaria report 2008. This method was used for all countries outside Africa and for low-transmission countries in Africa, where estimates of case incidence were derived from routine reporting systems. A case fatality rate of between 0.01% and 0.40% was applied to the estimated number of P. falciparum cases, and a case fatality rate of between 0.01% and 0.06% was applied to the estimated number of P. vivax cases. For countries in the pre-elimination and elimination phases, and those with vital registration systems that reported more than 50% of all deaths (determined by comparing the number of reported deaths with those expected given a country\u2019s population size and crude deaths rate), the number of malaria deaths was derived from the number of reported deaths, adjusting for completeness of reporting. ii) For countries in Africa with a high proportion of deaths due to malaria: child malaria deaths were estimated using a verbal autopsy multicause model developed by the Maternal and Child Health Epidemiology Estimation Group which estimates causes of death for children aged 1\u201359 months. Mortality estimates were derived for eight causes of post-neonatal death (pneumonia, diarrhoea, malaria, meningitis, injuries, pertussis, tuberculosis and other disorders), causes arising in the neonatal period (prematurity, birth asphyxia and trauma, sepsis, and other conditions of the neonate) and other causes (e.g. malnutrition). Deaths due to measles, unknown causes and HIV/AIDS were estimated separately. The resulting cause-specific estimates were adjusted, country by country, to fit the estimated 1\u201359 month mortality envelopes (excluding HIV and measles deaths) for corresponding years. Estimated malaria parasite prevalence, was used as a covariate within the model. Deaths in those aged over 5 years were inferred from a relationship between levels of malaria mortality in different age groups and the intensity of malaria transmission; thus, the estimated malaria mortality rate in children aged under 5 years was used to infer malaria-specific mortality in older age groups.",
+      "origins": [
+        {
+          "producer": "World Health Organization",
+          "title": "Global Health Observatory",
+          "description": "The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others.",
+          "citation_full": "World Health Organization. 2024. Global Health Observatory data repository. http://www.who.int/gho/en/. Accessed on 2024-01-03",
+          "attribution": "World Health Organization - Global Health Observatory (2024)",
+          "attribution_short": "WHO",
+          "url_main": "https://www.who.int/data/gho",
+          "date_accessed": "2024-01-03",
+          "date_published": "2024-01-03",
+          "license": {
+            "name": "CC BY-NC-SA 4.0",
+            "url": "https://www.who.int/about/policies/publishing/copyright"
+          }
+        }
+      ],
+      "unit": "Deaths"
+    }
+  }
+}

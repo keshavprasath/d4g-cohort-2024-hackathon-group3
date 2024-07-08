@@ -8,6 +8,8 @@ folder_path = './csv'
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+KEY_FILE_PATH = 'REPLACE ME WITH FILE PATH TO KEY'
+GOOGLE_SPREADSHEET_ID = 'REPLACE ME WITH GSPREAD ID'
 
 def load_who_data():
     # mortality rate per country estimation
@@ -69,9 +71,9 @@ if __name__ == '__main__':
     scopes = ['https://www.googleapis.com/auth/spreadsheets',
           'https://www.googleapis.com/auth/drive']
     #add in file path to credentials json below
-    credentials = Credentials.from_service_account_file('../../.env/gdi-ersilia-hackathon-2024-92eba4d03199.json', scopes=scopes)
+    credentials = Credentials.from_service_account_file(KEY_FILE_PATH, scopes=scopes)
     gc = gspread.authorize(credentials)
-    gs = gc.open_by_key("1GiDcGDfv4tdScHQJNpadeB0ajlkQAvO2kJlGkNe6_zE")
+    gs = gc.open_by_key(GOOGLE_SPREADSHEET_ID)
     incidence_ws = gs.worksheet('incidence_ws')
     incidence_ws.clear()
     set_with_dataframe(worksheet=incidence_ws, dataframe=df_incidence, include_column_header=True, resize=True)
