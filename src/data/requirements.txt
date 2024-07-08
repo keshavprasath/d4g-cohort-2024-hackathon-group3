@@ -1,0 +1,5 @@
+owid-catalog==0.3.9
+gspread==6.1.2
+gspread-dataframe==4.0.0
+pandas==2.2.2
+google-auth==2.31.0
